@@ -1,0 +1,30 @@
+{
+  "name": "@laye-mangane/first-npm-pkg",
+  "version": "1.0.0",
+  "description": "My First package npm displaying 'Hello NPM' message !",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doulaye12/my-first-pkg-npm.git"
+  },
+  "keywords": [
+    "first",
+    "pkg"
+  ],
+  "author": "l@yeMangane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doulaye12/my-first-pkg-npm/issues"
+  },
+  "homepage": "https://github.com/doulaye12/my-first-pkg-npm#readme",
+  "dependencies": {
+    "@laye-mangane/first-npm-pkg": "file:",
+    "first-npm-pkg": "file:"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
